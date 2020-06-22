@@ -1,0 +1,118 @@
+html,
+body {
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #E2D5CC;
+  background-color: #D8CDBA;
+  color: hsl(310, 50%, 30%);
+}
+
+.barrio {
+    font-family: 'Barrio', cursive;   
+}
+
+.cousine {
+    font-family: 'Cousine', monospace;    
+}
+
+.container {
+    margin: auto 6.3%;    
+}
+
+header {
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.bg-img {
+    background-image: url("./images/steve-johnson-OPyoU4zCwWI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-overlay {
+    background-color: rgba(236,156,165, 0.8);   
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline-block;
+    padding: 0.75rem 2rem;   
+}
+
+a {
+    text-decoration: none;
+    color: hsl(310, 50%, 30%);
+}
+
+.header-credit {
+    font-size: 0.6rem;
+    float: right;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+header h1 {
+    padding: 1rem;
+    margin: 3rem 0 0 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cousine', monospace;   
+}
+
+.text-content {
+    padding: 1rem;
+}
+
+.gallery-container {
+    margin: auto 5%;  
+}
+
+figure {
+    display: inline-block;
+    width: 30%;
+    margin: 1.4%;
+}
+
+figure img {
+    margin: 0;
+    width: 100%;
+}
+
+figcaption {
+    font-size: 0.6rem;
+    float: right;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    li {
+        display: block;   
+    }
+
+    figure {
+        display: block;
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .header-credit {
+        margin-top: 1rem;
+    }
+}
